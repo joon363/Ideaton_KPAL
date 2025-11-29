@@ -10,26 +10,9 @@ const geist = Geist({
 })
 
 export const metadata: Metadata = {
-  title: "K-Pal - 당신의 K-콘서트 가이드",
+  title: "K-Pal",
   description: "한국 콘서트 문화를 위한 완벽한 가이드 앱",
-  generator: "v0.app",
-  icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
-  },
+  generator: "bremen",
 }
 
 export default function RootLayout({

@@ -2,8 +2,9 @@
 
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { ChevronLeft, Camera, Volume2, Sparkles, Heart } from "lucide-react"
+import { ArrowRight , ChevronLeft, Camera, Volume2, Sparkles, Heart } from "lucide-react"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
+import Image from "next/image"
 
 interface ConcertGuideProps {
   onBack: () => void
@@ -55,6 +56,23 @@ export function ConcertGuide({ onBack }: ConcertGuideProps) {
       </div>
 
       <div className="max-w-md mx-auto p-6 space-y-6">
+
+        {/* ========================= */}
+        {/* 팬 이벤트 안내 + 이미지 추가 */}
+        {/* ========================= */}
+        <div className="space-y-4">
+          <h2 className="text-xl font-bold">팬 이벤트 안내</h2>
+
+          <Image
+    src="/event.png"
+    alt="팬 이벤트 안내"
+    width={800}
+    height={0}
+    className="w-full h-auto"
+  />
+
+        </div>
+
         {/* Rules Section */}
         <div>
           <h2 className="text-xl font-bold mb-4">필수 규칙</h2>
@@ -129,6 +147,23 @@ export function ConcertGuide({ onBack }: ConcertGuideProps) {
                 </ul>
               </AccordionContent>
             </AccordionItem>
+            <AccordionItem value="seat-guide" className="border rounded-lg px-4 bg-card">
+              <AccordionTrigger className="hover:no-underline">
+                <div className="flex items-center gap-3">
+                  <ArrowRight className="w-5 h-5 text-yellow-400" />
+                  <span className="font-semibold">입장/퇴장 가이드</span>
+                </div>
+              </AccordionTrigger>
+              <AccordionContent className="text-sm text-muted-foreground pt-2">
+                <ul className="list-disc list-inside space-y-1 ml-4">
+                  <li>입장 시 본인 좌석 위치를 먼저 확인하세요.</li>
+                  <li>입장 당일 새벽 4시부터 자리 맡기가 가능합니다.</li>
+                  <li>공연 중 이동은 최소화하고, 주변 관객을 방해하지 마세요.</li>
+                  <li>퇴장 시 질서를 지켜 안전하게 이동하세요.</li>
+                </ul>
+              </AccordionContent>
+            </AccordionItem>
+
           </Accordion>
         </div>
       </div>

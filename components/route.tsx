@@ -92,8 +92,8 @@ export function Route({ onBack }: RouteProps) {
         {/* Destination */}
         <Card className="p-6 bg-muted">
           <h3 className="font-semibold mb-2">도착지</h3>
-          <p className="text-sm text-muted-foreground">서울 올림픽공원 체조경기장</p>
-          <p className="text-xs text-muted-foreground mt-1">서울특별시 송파구 올림픽로 424</p>
+          <p className="text-sm text-muted-foreground">고척스카이돔</p>
+          <p className="text-xs text-muted-foreground mt-1">서울특별시 구로구 경인로 430</p>
         </Card>
 
         {/* Route Options */}
