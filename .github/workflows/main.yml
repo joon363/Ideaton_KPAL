@@ -14,7 +14,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # 2. Setup Node
+      # 2. Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -25,11 +25,10 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # 4. Build Next.js (Static Export)
+      # 4. Build Next.js (Static export enabled automatically)
       - name: Build Next.js
-        run: |
-          npm run build
-          npx next export
+        run: npm run build
+        # ❌ next export 제거! ❌
 
       # 5. Deploy to GitHub Pages
       - name: Deploy to GitHub Pages

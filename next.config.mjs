@@ -2,9 +2,7 @@
 const nextConfig = {
   output: "export",
   basePath: "/Ideaton_KPAL",
-  images: {
-    unoptimized: true,
-  },
+  images: { unoptimized: true },
 };
 
 export default nextConfig;
