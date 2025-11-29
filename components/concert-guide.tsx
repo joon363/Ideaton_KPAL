@@ -64,7 +64,7 @@ export function ConcertGuide({ onBack }: ConcertGuideProps) {
           <h2 className="text-xl font-bold">팬 이벤트 안내</h2>
 
           <Image
-    src="/event.png"
+    src="/Ideaton_KPAL/event.png"
     alt="팬 이벤트 안내"
     width={800}
     height={0}
