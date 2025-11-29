@@ -20,7 +20,7 @@ export function Tourism({ onBack }: TourismProps) {
       description: "BTS 정국 생일 카페 이벤트 진행중",
       distance: "500m",
       hours: "10:00 - 22:00",
-      image: "/kpop-birthday-cafe-with-decorations.jpg",
+      image: "/Ideaton_KPAL/kpop-birthday-cafe-with-decorations.jpg",
       idol: "BTS",
     },
     {
@@ -30,7 +30,7 @@ export function Tourism({ onBack }: TourismProps) {
       description: "BTS가 방문한 칼국수 맛집",
       distance: "1.2km",
       hours: "11:00 - 21:00",
-      image: "/korean-restaurant-noodles.jpg",
+      image: "/Ideaton_KPAL/korean-restaurant-noodles.jpg",
       idol: "BTS",
     },
     {
@@ -40,7 +40,7 @@ export function Tourism({ onBack }: TourismProps) {
       description: "NCT 굿즈 판매 중",
       distance: "800m",
       hours: "11:00 - 20:00",
-      image: "/kpop-merchandise-store.jpg",
+      image: "/Ideaton_KPAL/kpop-merchandise-store.jpg",
       idol: "NCT",
     },
     {
@@ -50,7 +50,7 @@ export function Tourism({ onBack }: TourismProps) {
       description: "아이돌 협찬 화장품 전시",
       distance: "600m",
       hours: "09:00 - 23:00",
-      image: "/korean-beauty-store-olive-young.jpg",
+      image: "/Ideaton_KPAL/korean-beauty-store-olive-young.jpg",
       idol: null,
     },
   ]
