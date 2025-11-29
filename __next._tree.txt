@@ -1,3 +1,3 @@
-:HL["/Ideaton_KPAL/_next/static/chunks/a9395fd1fdda5fae.css","style"]
+:HL["/Ideaton_KPAL/_next/static/chunks/fa54ebc0219b8aa9.css","style"]
 :HL["/Ideaton_KPAL/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"buildId":"G91WQXpMPTrpfeLeQDDYY","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"nWwsekhwT9ptN82KxFcRe","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
